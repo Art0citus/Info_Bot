@@ -11,13 +11,15 @@ class HomePage extends StatelessWidget  {
       body: Row(
         children: [
           SideBar(),
-          Column(
-            children: [
-              Expanded(child: SearchSection()),
-              Container(
-                height: 20,
-              )
-          ],)
+          Expanded(
+            child: Column(
+              children: [
+                Expanded(child: SearchSection()),
+                Container(
+                  height: 20,
+                )
+            ],),
+          )
         ],
       )
     );
