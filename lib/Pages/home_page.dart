@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gpt_clone/theme/colors.dart';
 import 'package:gpt_clone/widgets/search_section.dart';
 import 'package:gpt_clone/widgets/side_bar.dart';
 
@@ -16,7 +17,51 @@ class HomePage extends StatelessWidget  {
               children: [
                 Expanded(child: SearchSection()),
                 Container(
-                  height: 20,
+                  padding: EdgeInsets.symmetric(vertical: 16),
+                  child: Wrap(
+                    children: [
+                      Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('Github', style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.footerGrey
+                      ),
+                      )
+                      ),
+                      Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('Artocitus', style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.footerGrey
+                      ),
+                      )
+                      ),
+                      Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('Blog', style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.footerGrey
+                      ),
+                      )
+                      ),
+                      Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('LinkedIn', style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.footerGrey
+                      ),
+                      )
+                      ),
+                      Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('English (English)', style: TextStyle(
+                        fontSize: 14,
+                        color: AppColors.footerGrey
+                      ),
+                      )
+                      ),
+                    ],
+                  ),
                 )
             ],),
           )
