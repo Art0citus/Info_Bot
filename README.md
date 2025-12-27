@@ -33,11 +33,6 @@ This project demonstrates how to build an **AI-powered search assistant** that d
 
 ---
 
-## 📐 Architecture
-
-
----
-
 ## ⚙️ Setup
 
 ### Backend
